@@ -1,6 +1,6 @@
 # About
 
-During my time at Braven, we used GroupMe to communicate with members as it was the preffered platform by the majority of the group. To make sure everyone was kept up to date, I wrote a simple bot that pulled any assignments due from a MongoDB server and posted in the group chat.
+During my time at Braven Spring 2020, we used GroupMe to communicate with members as it was the preffered platform by the majority of the group. To make sure everyone was kept up to date, I wrote a simple bot that pulled any assignments due from a MongoDB server and posted in the group chat.
 
 ## Structure
 
@@ -13,8 +13,8 @@ This bot was deployed to Heroku since it did not need to constantly be on. There
 
 The server.py expects the following:
 * A Telegram Bot ID (If you wish to get updates/errors when your bot operates)
-* Telegram Admin ID (The Telegram User ID it should send messages too, if you dont know your Telegram ID, you can ask the bot at https://t.me/userinfodisplayer_bot)
-* MongoDB Database Name, MongoDB User, MongoDB Pass
+* Telegram Admin ID (The Telegram User ID it should send messages too, if you dont know your Telegram ID, you can ask the User Info Bot at https://t.me/userinfodisplayer_bot)
+* MongoDB Database URL - Which should contain a direct link to the DB with the username & password. You can use MongoDB Atlas (https://www.mongodb.com/cloud/atlas) 
 * GroupMe Bot API ID - https://dev.groupme.com/ for instructions on how to set up
 
 
