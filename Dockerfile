@@ -9,6 +9,6 @@ COPY . .
 
 RUN chmod -R 777 /usr/src/app
 
-EXPOSE $PORT
+EXPOSE 5007
 
 CMD [ "python", "./server.py" ]
